@@ -21,7 +21,7 @@ import qualified Data.List.NonEmpty as NE
 import           Servant.API (Accept (..), MimeRender (..))
 import qualified Network.HTTP.Media as M
 ----------------------------------------------------------------------------
-import           Miso.Render (ToHtml (..))
+import           Miso.Html.Render (ToHtml (..))
 ----------------------------------------------------------------------------
 -- | HTML MimeType used for servant APIs
 --
